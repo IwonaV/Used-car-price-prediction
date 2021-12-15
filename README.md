@@ -18,7 +18,7 @@ Standardised weights are comparable and the bigger the weight the bigger the imp
 Interpreting the dummy variable is slightly different. They are qualitative factors and dropped values are the benchmark used for comparison. 
 ### Testing:
 The model performed quite well with the min difference% - 0.000324, however the max difference% -  281.851452 is not that ideal. The percentiles show that for most of the predictions it came relatively close.
-
+![img](https://user-images.githubusercontent.com/85560182/146196073-4914dbe8-45a0-467b-9cfd-9768b1d245c5.png)
 Final conclusions:
 Revising the dataset it can be told which types of observation make good predictions and which are far off from the observed values. At the bottom of the data set there are a few predictions which are extremely low. The features used in the model scored on average quite well at predicting the price, apart from these last samples. The residuals for all these outliers are negative therefore their predictions are higher than the targets.
 
